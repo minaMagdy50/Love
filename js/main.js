@@ -6,8 +6,10 @@ const noBtn = document.querySelector('.no-btn');
 
 yesBtn.addEventListener('click' , ()=>{
 
-    question.innerHTML = "I love you Mina❤︎ "
-    gif.src = "img/giphy2.gif"
+    question.innerHTML = "Yayyyyy!! "
+    gif.src = "img/giphy4.gif"
+     gif.classList.add('pt-5')
+     question.classList.add('text-center')
     let btnGroup = document.querySelector('.bt-group').remove()
 })
 
